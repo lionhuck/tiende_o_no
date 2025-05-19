@@ -58,5 +58,5 @@ Hacer un Pull Request con tus mejoras
 📜 Licencia
 Tiende o No es software libre bajo licencia MIT, lo que significa que puedes usarlo, modificarlo y distribuirlo libremente.
 
-👨‍💻 Creado con mucho ☕ por Leon Huck
-📫 Contacto: leonhuck007@email.com
+👨‍💻 Creado por Leon F. Huck
+📫 Contacto: leonhuck007@gmail.com
