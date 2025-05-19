@@ -1,56 +1,83 @@
-Tiende o No 🌦️👕
-Tiende o No es una aplicación web que te ayuda a decidir si puedes colgar tu ropa al aire libre según las condiciones climáticas de tu ubicación. Además, te proporciona un pronóstico del tiempo para la semana.
+🌦️ Tiende o No - ¿Puedes colgar tu ropa hoy?
+License: MIT
+Next.js
+TypeScript
 
-Características principales ✨
-🌍 Detección automática de tu ubicación (o ingreso manual)
+Tiende o No es tu asistente meteorológico personal que te indica si las condiciones son ideales para tender la ropa al aire libre. ¡Nunca más te sorprenderá la lluvia con tu ropa colgada!
 
-☀️✅ Indicación clara si "Puedes tender" o "No puedes tender"
+App Preview
+(Reemplazar con screenshot real de tu aplicación)
 
-📊 Pronóstico del tiempo para los próximos 7 días
+✨ Características principales
+🌍 Detección automática de ubicación - O ingreso manual si prefieres
 
-📱 Diseño responsive que funciona en cualquier dispositivo
+☀️ Respuesta clara - "Puedes tender" o "Mejor no arriesgues"
 
-⚡ Desarrollada con Next.js para máximo rendimiento
+📊 Pronóstico extendido - Visualización del clima para los próximos 7 días
 
-Tecnologías utilizadas 🛠️
-Framework: Next.js
+📱 Totalmente responsive - Funciona perfecto en móviles, tablets y desktop
 
-Lenguaje: TypeScript
+⚡ Rendimiento optimizado - Gracias a Next.js
 
-Estilos: CSS Modules/TailwindCSS
-
-API del clima: OpenWeatherMap
-
-Geolocalización: API del navegador
-
-Instalación y desarrollo 🚀
-Clona el repositorio:
+🛠️ Stack tecnológico
+Categoría	Tecnología
+Framework	Next.js 13 (App Router)
+Lenguaje	TypeScript 4.9+
+Estilos	Tailwind CSS + CSS Modules
+API Clima	OpenWeatherMap API
+Geolocalización	Navigator Geolocation API
+Hosting	Vercel (recomendado)
+🚀 Instalación local
+Sigue estos pasos para correr el proyecto en tu máquina:
 
 bash
+# 1. Clona el repositorio
 git clone https://github.com/lionhuck/tiende_o_no.git
-Instala las dependencias:
 
-bash
+# 2. Entra al directorio
+cd tiende_o_no
+
+# 3. Instala dependencias
 npm install
 # o
 yarn install
-Crea un archivo .env.local con tu API key:
 
-env
-OPENWEATHER_API_KEY=tu_api_key_aqui
-Inicia el servidor de desarrollo:
+# 4. Configura las variables de entorno
+cp .env.example .env.local
+# Luego edita .env.local con tu API key de OpenWeather
 
-bash
+# 5. Inicia el servidor de desarrollo
 npm run dev
 # o
 yarn dev
 Abre http://localhost:3000 en tu navegador.
 
-Variables de entorno 🔧
-Variable	Descripción
-OPENWEATHER_API_KEY	API key para el servicio de pronóstico del tiempo
-Contribución 🤝
-Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría hacer.
+🔧 Configuración
+Variables de entorno
+Crea un archivo .env.local con:
 
+env
+OPENWEATHER_API_KEY=tu_api_key_aqui
+🤝 ¿Quieres contribuir?
+¡Me encantaría recibir tus aportes! Por favor:
 
-Hecho con ❤️ por Leon federico Huck [lionhuck] - ¿Tiendes o no tiendes? ¡La app que lo decide por ti!
+Haz fork del proyecto
+
+Crea una branch (git checkout -b feature/amazing-feature)
+
+Haz commit de tus cambios (git commit -m 'Add some amazing feature')
+
+Haz push a la branch (git push origin feature/amazing-feature)
+
+Abre un Pull Request
+
+O si prefieres, abre un issue para reportar bugs o sugerir mejoras.
+
+📄 Licencia
+Este proyecto está bajo la licencia MIT - mira el archivo LICENSE para más detalles.
+
+👨‍💻 Desarrollado con ❤️ por Leon Federico Huck
+📧 Contacto: leonhuck007@email.com
+🐦 Twitter: @tuusuario (opcional)
+
+¿Tiendes o no tiendes? ¡Deja que la app decida por ti! ☀️👚🌧️
