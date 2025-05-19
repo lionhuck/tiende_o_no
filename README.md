@@ -1,79 +1,44 @@
-🌦️ Tiende o No - ¿Puedes colgar tu ropa hoy?
-License: MIT
-Next.js
-TypeScript
+# 🌦️ Tiende o No - Tu pronóstico para tender ropa
 
-Tiende o No es tu asistente meteorológico personal que te indica si las condiciones son ideales para tender la ropa al aire libre. ¡Nunca más te sorprenderá la lluvia con tu ropa colgada!
+[![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![Next.js](https://img.shields.io/badge/Construido_con-Next.js-000000?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9-blue?logo=typescript)
 
-✨ Características principales
-🌍 Detección automática de ubicación - O ingreso manual si prefieres
+¿Alguna vez has tendido la ropa y... ¡sorpresa! empezó a llover? Con **Tiende o No** eso será cosa del pasado. Esta aplicación te dice si es buen momento para colgar tu ropa al aire libre según el clima en tu ubicación.
 
-☀️ Respuesta clara - "Puedes tender" o "Mejor no arriesgues"
 
-📊 Pronóstico extendido - Visualización del clima para los próximos 7 días
+## ✨ Lo que hace especial a Tiende o No
 
-📱 Totalmente responsive - Funciona perfecto en móviles, tablets y desktop
+- **Decisión al instante**: Con solo abrir la app sabrás si es buen día para tender
+- **Pronóstico semanal**: Planea tus lavados con anticipación
+- **Para todos los dispositivos**: Funciona igual de bien en tu celular o computadora
+- **Super rápida**: Gracias a Next.js, obtienes respuestas al instante
 
-⚡ Rendimiento optimizado - Gracias a Next.js
+## 🛠️ Cómo está hecha
 
-🛠️ Stack tecnológico
-Categoría	Tecnología
-Framework	Next.js 13 (App Router)
-Lenguaje	TypeScript 4.9+
-Estilos	Tailwind CSS + CSS Modules
-API Clima	OpenWeatherMap API
-Geolocalización	Navigator Geolocation API
-Hosting	Vercel (recomendado)
-🚀 Instalación local
-Sigue estos pasos para correr el proyecto en tu máquina:
+Como desarrollador, elegí tecnologías modernas y eficientes:
 
-bash
-# 1. Clona el repositorio
+- **Next.js 13** con App Router para el rendimiento
+- **TypeScript** para menos bugs y mejor mantenimiento
+- **Tailwind CSS** para estilos rápidos y consistentes
+- **OpenWeather API** para datos climáticos confiables
+
+## 🚀 ¿Quieres probarla localmente?
+
+Así puedes correrla en tu computadora:
+
+```bash
+# Clona el repositorio
 git clone https://github.com/lionhuck/tiende_o_no.git
 
-# 2. Entra al directorio
+# Entra al directorio
 cd tiende_o_no
 
-# 3. Instala dependencias
+# Instala lo necesario
 npm install
-# o
-yarn install
 
-# 4. Configura las variables de entorno
-cp .env.example .env.local
-# Luego edita .env.local con tu API key de OpenWeather
+# Configura tu API key (consíguela gratis en OpenWeather)
+echo "OPENWEATHER_API_KEY=tu_clave_aquí" > .env.local
 
-# 5. Inicia el servidor de desarrollo
+# ¡A correr!
 npm run dev
-# o
-yarn dev
-Abre http://localhost:3000 en tu navegador.
-
-🔧 Configuración
-Variables de entorno
-Crea un archivo .env.local con:
-
-env
-OPENWEATHER_API_KEY=tu_api_key_aqui
-🤝 ¿Quieres contribuir?
-¡Me encantaría recibir tus aportes! Por favor:
-
-Haz fork del proyecto
-
-Crea una branch (git checkout -b feature/amazing-feature)
-
-Haz commit de tus cambios (git commit -m 'Add some amazing feature')
-
-Haz push a la branch (git push origin feature/amazing-feature)
-
-Abre un Pull Request
-
-O si prefieres, abre un issue para reportar bugs o sugerir mejoras.
-
-📄 Licencia
-Este proyecto está bajo la licencia MIT - mira el archivo LICENSE para más detalles.
-
-👨‍💻 Desarrollado con ❤️ por Leon Federico Huck
-📧 Contacto: leonhuck007@email.com
-
-¿Tiendes o no tiendes? ¡Deja que la app decida por ti! ☀️👚🌧️
