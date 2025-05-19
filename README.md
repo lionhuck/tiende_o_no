@@ -5,9 +5,6 @@ TypeScript
 
 Tiende o No es tu asistente meteorológico personal que te indica si las condiciones son ideales para tender la ropa al aire libre. ¡Nunca más te sorprenderá la lluvia con tu ropa colgada!
 
-App Preview
-(Reemplazar con screenshot real de tu aplicación)
-
 ✨ Características principales
 🌍 Detección automática de ubicación - O ingreso manual si prefieres
 
@@ -78,6 +75,5 @@ Este proyecto está bajo la licencia MIT - mira el archivo LICENSE para más det
 
 👨‍💻 Desarrollado con ❤️ por Leon Federico Huck
 📧 Contacto: leonhuck007@email.com
-🐦 Twitter: @tuusuario (opcional)
 
 ¿Tiendes o no tiendes? ¡Deja que la app decida por ti! ☀️👚🌧️
